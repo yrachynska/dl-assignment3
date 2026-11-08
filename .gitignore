@@ -1,0 +1,21 @@
+# Дані змагання (великі, ліцензія CC BY-NC)
+data/
+*.csv
+*.parquet
+*.pkl
+
+# Ваги моделей і логи
+*.pt
+*.pth
+*.ckpt
+lightning_logs/
+wandb/
+
+# Ключі
+kaggle.json
+.env
+
+# Jupyter / Python / ОС
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
